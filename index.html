@@ -20,7 +20,7 @@
             text-align: center;
         }
         .btn{
-            width: 140px;
+            width: 180px;
             height: 30px;
             margin: 30px;
         }
@@ -34,10 +34,32 @@
 <body>
     <div class="container">
         <h1 class="title"> <i>Sum of Two Numbers</i></h1>
-        <input type="text" class="input-box"/>
-        <input type="text" class="input-box"/>
-        <p class="result">Sum</p>
-        <button type="button" class="btn">Calculate</button>
+        <input type="text" class="input-box" id="num1"/>
+        <input type="text" class="input-box" id="num2"/>
+        <p class="result" id="result"></p>
+
+        <div>
+        <button type="button" class="btn" onclick="calsum()">Calculate</button>
+        <button type="button" class="btn" onclick="calsum()">Reset</button>
+        </div>
     </div>
+
+    <script>
+        function calsum()
+        {
+            const num1Element = document.getElementById("num1")
+            const num2Element = document.getElementById("num2")
+
+            const sum = parseInt(num1Element.value) + parseInt(num2Element.value)
+
+            const resultElement = document.getElementById("result")
+
+            resultElement.innerText = `Sum: ${sum}`
+        }
+
+        function reset(){
+
+        }
+    </script>
 </body>
 </html>
