@@ -9,6 +9,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
         }
         .input-box{
             width: 250px;
@@ -18,7 +19,16 @@
         .title{
             text-align: center;
         }
-
+        .btn{
+            width: 140px;
+            height: 30px;
+            margin: 30px;
+        }
+        .result{
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+        }
     </style>
 </head>
 <body>
@@ -26,6 +36,7 @@
         <h1 class="title"> <i>Sum of Two Numbers</i></h1>
         <input type="text" class="input-box"/>
         <input type="text" class="input-box"/>
+        <p class="result">Sum</p>
         <button type="button" class="btn">Calculate</button>
     </div>
 </body>
