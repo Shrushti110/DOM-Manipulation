@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM MANIPULATION</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .input-box{
+            width: 250px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .title{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Sum of Two Numbers</h1>
+    <div class="container">
+        <h1 class="title"> <i>Sum of Two Numbers</i></h1>
+        <input type="text" class="input-box"/>
+        <input type="text" class="input-box"/>
+        <button type="button" class="btn">Calculate</button>
     </div>
 </body>
 </html>
