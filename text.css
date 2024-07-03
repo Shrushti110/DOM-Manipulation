@@ -1,0 +1,17 @@
+.heading{
+   text-align: center;
+}
+
+.text-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-text{
+    width: 300px;
+    height: 70px;
+}
+
+.result{
+    text-align: center;
+}
