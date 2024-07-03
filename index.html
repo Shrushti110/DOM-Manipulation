@@ -29,7 +29,7 @@
             console.log(num1Element.value)
             console.log(num2Element.value)
 
-            const sum = parseInt(num1Element.value) + parseInt(num2Element.value)
+            const sum = parseInt(num1Element.value || 0) + parseInt(num2Element.value || 0)
 
             const resultElement = document.getElementById("result")
 

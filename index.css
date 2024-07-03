@@ -6,18 +6,20 @@
             align-items: center;
         }
         .input-box{
-            width: 230px;
+            width: 250px;
             height: 30px;
+            border: 1px solid goldenrod;
             margin: 10px auto;
             border-radius: 5px;
-            border: hidden;
+           
         }
         .title{
             text-align: center;
-        }
+            color: #7b6b8d;
+            }
         .btn{
             width: 170px;
-            height: 35px;
+            height: 37px;
             margin: 30px;
             border-radius: 10px;
             border: hidden;
@@ -37,5 +39,5 @@
             border-radius: 30px;
         }
         .title{
-            color: #7b6b8d;
+            
         }
